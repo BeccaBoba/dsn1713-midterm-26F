@@ -25,6 +25,14 @@
   color: #F6F3ED;
 }
 
+.nav-link {
+  color: white;
+}
+
+.nav-link:hover {
+  color: grey;
+}
+
 body {
   font-family: "Sarala", sans-serif;
 }
@@ -42,6 +50,10 @@ h1, h2, h3 {
   background-size: cover;
 }
 
+#accordion {
+  margin: 100px;
+}
+
 #hero .d-flex {
   height: 800px;
 }
@@ -51,6 +63,7 @@ h1, h2, h3 {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  padding: 100px 0;
 }
 
 #cta .d-flex {
