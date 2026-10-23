@@ -3,7 +3,22 @@
 /* Set custom variables here */
 
 
+:root {
+  --bs-primary-rgb: 46, 72, 58;
+  --bs-primary: #2e483a;
+  --bs-light: #f6f3ed;
+  --bs-light-rgb: 246, 243, 237;
+}
 
+
+.btn-primary {
+  --bs-btn-hover-border-color: var(--bs-light);
+  --bs-btn-hover-bg: var(--bs-light);
+  --bs-btn-hover-color: var(--bs-primary);
+  --bs-btn-border-color: var(--bs-primary);
+  --bs-btn-bg: var(--bs-primary);
+  --bs-btn-color: var(#ffff);
+}
 
 
 .navbar-brand {
